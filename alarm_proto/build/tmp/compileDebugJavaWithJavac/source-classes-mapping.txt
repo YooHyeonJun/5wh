@@ -8,6 +8,8 @@ com/example/alarm_proto/api/ApiInterface.java
 com/example/alarm_proto/category_search/CategoryResult.java
  com.example.alarm_proto.category_search.CategoryResult
  com.example.alarm_proto.category_search.CategoryResult$1
+com/example/alarm_proto/adapter/AlarmItemView.java
+ com.example.alarm_proto.adapter.AlarmItemView
 com/example/alarm_proto/Alarm_Receiver.java
  com.example.alarm_proto.Alarm_Receiver
 com/example/alarm_proto/DestinationFinish.java
@@ -24,12 +26,15 @@ com/example/alarm_proto/address_search/RoadAddress.java
  com.example.alarm_proto.address_search.RoadAddress
 com/example/alarm_proto/UserSetting.java
  com.example.alarm_proto.UserSetting
+ com.example.alarm_proto.UserSetting$1
 com/example/alarm_proto/adapter/BusProvider.java
  com.example.alarm_proto.adapter.BusProvider
+com/example/alarm_proto/RouteConfig.java
+ com.example.alarm_proto.RouteConfig
+ com.example.alarm_proto.RouteConfig$1
+ com.example.alarm_proto.RouteConfig$2
 com/example/alarm_proto/AlarmClosed.java
  com.example.alarm_proto.AlarmClosed
-com/example/alarm_proto/address_search/Document.java
- com.example.alarm_proto.address_search.Document
 com/example/alarm_proto/AddDestination.java
  com.example.alarm_proto.AddDestination
  com.example.alarm_proto.AddDestination$1
@@ -57,15 +62,15 @@ com/example/alarm_proto/RouteSelect.java
 com/example/alarm_proto/category_search/Document.java
  com.example.alarm_proto.category_search.Document
  com.example.alarm_proto.category_search.Document$1
+com/example/alarm_proto/address_search/Document.java
+ com.example.alarm_proto.address_search.Document
 com/example/alarm_proto/AlarmManagement.java
  com.example.alarm_proto.AlarmManagement
  com.example.alarm_proto.AlarmManagement$1
+ com.example.alarm_proto.AlarmManagement$MyAdapter
+ com.example.alarm_proto.AlarmManagement$MyAdapter$1
 com/example/alarm_proto/AlarmConfig.java
  com.example.alarm_proto.AlarmConfig
-com/example/alarm_proto/RouteConfig.java
- com.example.alarm_proto.RouteConfig
- com.example.alarm_proto.RouteConfig$1
- com.example.alarm_proto.RouteConfig$2
 com/example/alarm_proto/MainActivity.java
  com.example.alarm_proto.MainActivity
  com.example.alarm_proto.MainActivity$1

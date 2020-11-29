@@ -158,7 +158,6 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:gravity="center"
-                android:inputType="time"
                 android:hint="rec_time"
                 android:textStyle="italic" />
         </LinearLayout>

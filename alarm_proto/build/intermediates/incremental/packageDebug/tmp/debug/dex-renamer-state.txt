@@ -1,4 +1,4 @@
-#Sun Nov 29 15:29:18 KST 2020
+#Mon Nov 30 01:35:04 KST 2020
 base.0=F\:\\2020_Engine\\v1.3\\alarm_proto\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

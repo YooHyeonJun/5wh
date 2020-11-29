@@ -29,10 +29,10 @@ public class UserSetting extends AppCompatActivity {
                     break;
                 }
                 else {
-                    Intent intent = new Intent(this, AlarmConfig.class);
-                    intent. putExtra("준비 시간", pre_time[0]);
-                    this.onBackPressed();
-                    break;
+                    //Intent intent = new Intent(this, AlarmConfig.class);
+                    //intent. putExtra("준비 시간", pre_time[0]);
+                    //this.onBackPressed();
+                    //break;
                 }
         }
         RadioButton r_btnSLOW, r_btnNORMAL, r_btnFAST;//라디오 버튼

@@ -398,6 +398,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple_500
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -631,9 +632,11 @@ id CTRL
 id Destination_complete_image
 id FUNCTION
 id META
+id RadioGroup
 id SHIFT
 id SYM
 id Setting_an_alarm_button
+id Star
 id action0
 id action_bar
 id action_bar_activity_content
@@ -713,7 +716,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageButton
 id imageButton4
 id imageButton5
 id imageButton6
@@ -737,7 +739,9 @@ id media_actions
 id message
 id middle
 id minute_Text
-id moving_speed_edit
+id moving_speed_fast
+id moving_speed_normal
+id moving_speed_slow
 id moving_speed_text
 id multiply
 id never
@@ -898,6 +902,7 @@ layout tooltip
 layout view_loader
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap time
 raw bibi
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
