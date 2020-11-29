@@ -1,9 +1,11 @@
 com/example/alarm_proto/category_search/Meta.java
  com.example.alarm_proto.category_search.Meta
  com.example.alarm_proto.category_search.Meta$1
-com/example/alarm_proto/AlarmClosed.java
- com.example.alarm_proto.AlarmClosed
- com.example.alarm_proto.AlarmClosed$1
+com/example/alarm_proto/AlarmManagement.java
+ com.example.alarm_proto.AlarmManagement
+ com.example.alarm_proto.AlarmManagement$1
+ com.example.alarm_proto.AlarmManagement$MyAdapter
+ com.example.alarm_proto.AlarmManagement$MyAdapter$1
 com/example/alarm_proto/api/ApiInterface.java
  com.example.alarm_proto.api.ApiInterface
 com/example/alarm_proto/category_search/CategoryResult.java
@@ -61,18 +63,16 @@ com/example/alarm_proto/RouteSelect.java
  com.example.alarm_proto.RouteSelect$2
  com.example.alarm_proto.RouteSelect$3
  com.example.alarm_proto.RouteSelect$4
-com/example/alarm_proto/RingtonePlayingService.java
- com.example.alarm_proto.RingtonePlayingService
-com/example/alarm_proto/Alarm_Receiver.java
- com.example.alarm_proto.Alarm_Receiver
-com/example/alarm_proto/AlarmManagement.java
- com.example.alarm_proto.AlarmManagement
- com.example.alarm_proto.AlarmManagement$1
- com.example.alarm_proto.AlarmManagement$MyAdapter
- com.example.alarm_proto.AlarmManagement$MyAdapter$1
-com/example/alarm_proto/AlarmConfig.java
- com.example.alarm_proto.AlarmConfig
 com/example/alarm_proto/MainActivity.java
  com.example.alarm_proto.MainActivity
  com.example.alarm_proto.MainActivity$1
  com.example.alarm_proto.MainActivity$2
+com/example/alarm_proto/AlarmConfig.java
+ com.example.alarm_proto.AlarmConfig
+com/example/alarm_proto/RingtonePlayingService.java
+ com.example.alarm_proto.RingtonePlayingService
+com/example/alarm_proto/Alarm_Receiver.java
+ com.example.alarm_proto.Alarm_Receiver
+com/example/alarm_proto/AlarmClosed.java
+ com.example.alarm_proto.AlarmClosed
+ com.example.alarm_proto.AlarmClosed$1

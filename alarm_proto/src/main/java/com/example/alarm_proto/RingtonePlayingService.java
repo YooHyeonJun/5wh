@@ -11,7 +11,9 @@ import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.util.Log;
 
 
@@ -29,7 +31,8 @@ public class RingtonePlayingService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        Intent intent = new Intent(this,AlarmClosed.class);
+        mPendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_UPDATE_CURRENT);
 
 
         if (Build.VERSION.SDK_INT >= 26) {
@@ -47,9 +50,11 @@ public class RingtonePlayingService extends Service {
                     .setSmallIcon(R.mipmap.ic_launcher)
                     .setDefaults(Notification.DEFAULT_VIBRATE)
                     .setAutoCancel(true)
+                    .setContentIntent(mPendingIntent)
                     .build();
 
-            startForeground(1, notification);
+            NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+            notificationManager.notify(999,notification);
         }
 
 
@@ -76,7 +81,7 @@ public class RingtonePlayingService extends Service {
         if(!this.isRunning && startId == 1) {
 
             mediaPlayer = MediaPlayer.create(this, R.raw.bibi);
-            //mediaPlayer.setLooping(true);
+            mediaPlayer.setLooping(true);
             mediaPlayer.start();
 
             this.isRunning = true;
@@ -99,10 +104,11 @@ public class RingtonePlayingService extends Service {
         return START_NOT_STICKY;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onDestroy() {
         super.onDestroy();
-
+        stopForeground(Service.STOP_FOREGROUND_DETACH);
         Log.d("onDestory() 실행", "서비스 파괴");
 
     }
