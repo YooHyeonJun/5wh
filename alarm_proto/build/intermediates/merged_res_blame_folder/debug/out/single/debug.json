@@ -60,6 +60,10 @@
         "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "F:\\2020_Engine\\v1.3\\alarm_proto\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_time.png.flat",
+        "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\mipmap-hdpi\\time.png"
+    },
+    {
         "merged": "F:\\2020_Engine\\v1.3\\alarm_proto\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "F:\\2020_Engine\\v1.3\\alarm_proto\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
