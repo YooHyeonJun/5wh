@@ -23,8 +23,7 @@
             android:layout_width="337dp"
             android:layout_height="64dp"
             android:layout_gravity="center"
-            android:gravity="center"
-            android:text="COMPLETE"
+            android:text="    COMPLETE"
             android:textSize="35sp" />
     </LinearLayout>
 
