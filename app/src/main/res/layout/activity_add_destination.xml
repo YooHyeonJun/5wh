@@ -20,8 +20,7 @@
             android:id="@+id/destination_text"
             android:layout_width="337dp"
             android:layout_height="64dp"
-            android:gravity="center|center_horizontal"
-            android:text="목적지 관리"
+            android:text="    목적지 관리"
             android:textSize="35sp" />
     </LinearLayout>
 
