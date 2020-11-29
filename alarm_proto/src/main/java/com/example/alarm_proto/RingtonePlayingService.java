@@ -3,6 +3,7 @@ package com.example.alarm_proto;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +20,7 @@ public class RingtonePlayingService extends Service {
     MediaPlayer mediaPlayer;
     int startId;
     boolean isRunning;
-
+    PendingIntent mPendingIntent;
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
@@ -29,7 +30,10 @@ public class RingtonePlayingService extends Service {
     public void onCreate() {
         super.onCreate();
 
+
+
         if (Build.VERSION.SDK_INT >= 26) {
+
             String CHANNEL_ID = "default";
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID,
                     "Channel human readable title",
@@ -43,7 +47,6 @@ public class RingtonePlayingService extends Service {
                     .setSmallIcon(R.mipmap.ic_launcher)
                     .setDefaults(Notification.DEFAULT_VIBRATE)
                     .setAutoCancel(true)
-
                     .build();
 
             startForeground(1, notification);
@@ -73,7 +76,7 @@ public class RingtonePlayingService extends Service {
         if(!this.isRunning && startId == 1) {
 
             mediaPlayer = MediaPlayer.create(this, R.raw.bibi);
-            mediaPlayer.setLooping(true);
+            //mediaPlayer.setLooping(true);
             mediaPlayer.start();
 
             this.isRunning = true;
@@ -89,21 +92,6 @@ public class RingtonePlayingService extends Service {
 
             this.isRunning = false;
             this.startId = 0;
-        }
-
-        // 알람음 재생 X , 알람음 종료 버튼 클릭
-        else if(!this.isRunning && startId == 0) {
-
-            this.isRunning = false;
-            this.startId = 0;
-
-        }
-
-        // 알람음 재생 O , 알람음 시작 버튼 클릭
-        else if(this.isRunning && startId == 1){
-
-            this.isRunning = true;
-            this.startId = 1;
         }
 
         else {

@@ -800,6 +800,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id shutup
 id spacer
 id split_action_bar
 id spread

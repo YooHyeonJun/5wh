@@ -85,9 +85,10 @@ public class AlarmManagement extends AppCompatActivity {
             toggle.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    toggle.setChecked(!isChecked);
+                    isChecked = !isChecked;
+                    toggle.setChecked(isChecked);
                     String altime = alarms.get(position);
-                    if ( altime == "" ) {
+                    if ( isChecked == false) {
 
                         //Toast myToast = Toast.makeText(this.getApplicationContext(),"input time first", Toast.LENGTH_SHORT);
                         //myToast.show();
@@ -115,11 +116,27 @@ public class AlarmManagement extends AppCompatActivity {
                     //알람 리시버 인텐트
                     Intent al_intent = new Intent(AlarmManagement.this, Alarm_Receiver.class);
                     // reveiver에 string 값 넘겨주기
-                    al_intent.putExtra("state","alarm on");
+                    if(isChecked == true)
+                        al_intent.putExtra("state","alarm on");
+                    else
+                        al_intent.putExtra("state","alarm off");
 
-                    pendingIntent = PendingIntent.getBroadcast(AlarmManagement.this,0,al_intent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+
                     //알람 세팅
-                    alarm_manager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
+                    if(isChecked == true)
+                    {
+                        pendingIntent = PendingIntent.getBroadcast(AlarmManagement.this,0,al_intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        alarm_manager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
+                    }
+                    else
+                    {
+                        pendingIntent = PendingIntent.getBroadcast(AlarmManagement.this,0,al_intent, PendingIntent.FLAG_CANCEL_CURRENT);
+                        alarm_manager.cancel(pendingIntent);
+                        pendingIntent.cancel();
+
+                    }
+
 
                 }
             });
