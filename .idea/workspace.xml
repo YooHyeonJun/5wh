@@ -71,65 +71,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="428bd7a4-cb86-45ce-adda-72d8d9ba4552" name="Default Changelist" comment="patch #1 bug fix">
-      <change afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/adapter/AlarmItemView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="428bd7a4-cb86-45ce-adda-72d8d9ba4552" name="Default Changelist" comment="patch #2 send alarm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AddDestination.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AddDestination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/DestinationSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/DestinationSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RouteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RouteConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RouteSelect.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RouteSelect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/UserSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/UserSetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/3506bd10ebe451de77b00e694e93612bf263ed61023a270ce80f5cf4c0422aff_7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AddDestination.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AddDestination.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmManagement.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmManagement.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/DestinationSearch.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/DestinationSearch.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RouteConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RouteConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RouteSelect.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RouteSelect.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/UserSetting.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/UserSetting.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_add_destination.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_add_destination.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_destination_finish.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_destination_finish.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_user_setting.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/layout_activity_user_setting.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/outputs/apk/debug/alarm_proto-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/outputs/apk/debug/alarm_proto-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/UserSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/res/layout/activity_alarm_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/res/layout/activity_alarm_config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +219,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606631717895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="patch #2 create alarm list">
+      <created>1606667850313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606667850314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete intent">
+      <created>1606667867477</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606667867477</updated>
+    </task>
+    <task id="LOCAL-00004" summary="patch #2 send alarm">
+      <created>1606667896736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606667896736</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +257,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="patch #1 bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="patch #1 bug fix" />
+    <MESSAGE value="patch #2 create alarm list" />
+    <MESSAGE value="delete intent" />
+    <MESSAGE value="patch #2 send alarm" />
+    <option name="LAST_COMMIT_MESSAGE" value="patch #2 send alarm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2159" y="489" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606579294312">
@@ -316,50 +283,50 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1190" y="484" key="FileChooserDialogImpl/0.0.3440.1440@0.0.3440.1440" timestamp="1606588612766" />
-    <state width="1829" height="357" key="GridCell.Tab.0.bottom" timestamp="1606667577289">
+    <state width="1829" height="357" key="GridCell.Tab.0.bottom" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606667577289" />
-    <state width="1829" height="357" key="GridCell.Tab.0.center" timestamp="1606667577289">
+    <state width="1829" height="357" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.0.center" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606667577289" />
-    <state width="1829" height="357" key="GridCell.Tab.0.left" timestamp="1606667577289">
+    <state width="1829" height="357" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.0.left" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606667577289" />
-    <state width="1829" height="357" key="GridCell.Tab.0.right" timestamp="1606667577289">
+    <state width="1829" height="357" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.0.right" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606667577289" />
-    <state width="1829" height="357" key="GridCell.Tab.1.bottom" timestamp="1606667573886">
+    <state width="1829" height="357" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.1.bottom" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606667573886" />
-    <state width="1829" height="357" key="GridCell.Tab.1.center" timestamp="1606667573886">
+    <state width="1829" height="357" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.1.center" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606667573886" />
-    <state width="1829" height="357" key="GridCell.Tab.1.left" timestamp="1606667573886">
+    <state width="1829" height="357" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.1.left" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606667573886" />
-    <state width="1829" height="357" key="GridCell.Tab.1.right" timestamp="1606667573886">
+    <state width="1829" height="357" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
+    <state width="1829" height="357" key="GridCell.Tab.1.right" timestamp="1606668341147">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="357" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606667573886" />
+    <state width="1829" height="357" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341147" />
     <state x="1451" y="416" key="SettingsEditor" timestamp="1606575751888">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1451" y="416" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606575751888" />
-    <state x="1350" y="580" key="Vcs.Push.Dialog.v2" timestamp="1606631738685">
+    <state x="1350" y="580" key="Vcs.Push.Dialog.v2" timestamp="1606667906031">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="1350" y="580" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606631738685" />
-    <state x="1335" y="109" width="1977" height="1302" key="dock-window-1" timestamp="1606667701119">
+    <state x="1350" y="580" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606667906031" />
+    <state x="1170" y="51" width="1977" height="1302" key="dock-window-1" timestamp="1606668341206">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="1335" y="109" width="1977" height="1302" key="dock-window-1/0.0.3440.1440@0.0.3440.1440" timestamp="1606667701119" />
+    <state x="1170" y="51" width="1977" height="1302" key="dock-window-1/0.0.3440.1440@0.0.3440.1440" timestamp="1606668341206" />
     <state x="1304" y="485" key="git4idea.merge.GitPullDialog" timestamp="1606664353185">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
