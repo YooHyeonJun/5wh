@@ -22,7 +22,8 @@
             android:id="@+id/setting_text"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:text="      SETTINGS"
+            android:gravity="center|center_horizontal"
+            android:text="SETTINGS"
 
             android:textSize="35sp" />
     </LinearLayout>
@@ -144,7 +145,7 @@ zz
         android:gravity="center"
         android:layout_gravity="center">
 
-        <RadioButton
+            <RadioButton
             android:id="@+id/original_button"
             android:layout_width="120dp"
             android:layout_height="match_parent"
@@ -160,26 +161,18 @@ zz
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"/>
+        android:layout_height="40dp"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center_horizontal">
 
-        <TextView
-            android:id="@+id/tts_Text"
-            android:layout_width="170dp"
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="300dp"
             android:layout_height="60dp"
-            android:gravity="center|center_horizontal"
-            android:text="음성안내(TTS)"
-            android:textSize="25sp" />
+            android:text="SAVE"
+            />
 
-        <Switch
-            android:id="@+id/tts_switch"
-            android:layout_width="112dp"
-            android:layout_height="60dp"
-            android:checked="true"
-            android:switchMinWidth="100dp"
-            android:switchPadding="20dp" />
     </LinearLayout>
 </LinearLayout>
