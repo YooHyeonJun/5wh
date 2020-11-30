@@ -77,11 +77,11 @@
             android:layout_gravity="center_horizontal"/>
     </LinearLayout>
     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
 
         <RadioGroup
             android:id="@+id/RadioGroup"
@@ -109,7 +109,7 @@
                 android:layout_height="match_parent"
                 android:text="FAST" />
         </RadioGroup>
-zz
+        zz
     </LinearLayout>
 
     <LinearLayout
@@ -145,7 +145,7 @@ zz
         android:gravity="center"
         android:layout_gravity="center">
 
-            <RadioButton
+        <RadioButton
             android:id="@+id/original_button"
             android:layout_width="120dp"
             android:layout_height="match_parent"
@@ -171,6 +171,8 @@ zz
             android:id="@+id/save_button"
             android:layout_width="300dp"
             android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
             android:text="SAVE"
             />
 
