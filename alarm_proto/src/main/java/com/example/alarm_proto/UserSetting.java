@@ -77,11 +77,6 @@ public class UserSetting extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_setting);
-        ResourceBundle bundle = null;
-        String pre_time= bundle.getString("pre_time");
-        usertime_get=findViewById(R.id.time_edit);
-        usertime_get.setText(pre_time);
-
-        usertime_get.setText(pre_time);
+        
     }
 }
