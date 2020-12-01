@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.3.iml" filepath="$PROJECT_DIR$/.idea/modules/1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ODsayAndroidSDK/1.3.ODsayAndroidSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/ODsayAndroidSDK/1.3.ODsayAndroidSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alarm_proto/1.3.alarm_proto.iml" filepath="$PROJECT_DIR$/.idea/modules/alarm_proto/1.3.alarm_proto.iml" />
+    </modules>
+  </component>
+</project>

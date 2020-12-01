@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/setting_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        app:srcCompat="@android:drawable/ic_menu_preferences"
+        tools:srcCompat="@tools:sample/avatars[2]"
+        android:layout_gravity="right"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="알람관리"
+        android:textSize="22sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+    </LinearLayout>
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="180dp"
+        android:id="@+id/destination_button"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_gravity="center"
+        android:text="목적지 관리"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="나침반"
+        android:textSize="22sp"
+        android:layout_gravity="bottom|right"/>
+
+</LinearLayout>

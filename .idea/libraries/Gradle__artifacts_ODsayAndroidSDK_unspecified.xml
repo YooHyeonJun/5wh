@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:ODsayAndroidSDK:unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/b74633af98bd649671694e72df41076c/res" />
+      <root url="file://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/5e414cbbac87edcefbc6ee8406c8aa24/ODsayAndroidSDK/res" />
+      <root url="file://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/99de47ff5c64a41ba356c8c2c7c00604/ODsayAndroidSDK/res" />
+      <root url="file://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/f75b9bf5ca0fa948e925102ba868b53f/ODsayAndroidSDK/res" />
+      <root url="file://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/363667510e719ce2768a812f52245e58/ODsayAndroidSDK/res" />
+      <root url="file://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/363667510e719ce2768a812f52245e58/ODsayAndroidSDK/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/ODsayAndroidSDK/build/.transforms/363667510e719ce2768a812f52245e58/ODsayAndroidSDK/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.alarm_proto"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:5:5-77
+11-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:10:22-78
+17
+18    <application
+18-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:13:5-45:19
+19        android:allowBackup="true"
+19-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:14:9-35
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:15:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:16:9-41
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:20:9-69
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:21:9-40
+28        android:usesCleartextTraffic="true" >
+28-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:19:9-44
+29        <meta-data
+29-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:22:9-24:64
+30            android:name="com.kakao.sdk.AppKey"
+30-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:23:13-48
+31            android:value="cd858a4418d7273af074aa26ca8f5b7a" />
+31-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:24:13-61
+32
+33        <activity android:name="com.example.alarm_proto.AlarmClosed" />
+33-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:25:9-49
+33-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:25:19-46
+34
+35        <receiver android:name="com.example.alarm_proto.Alarm_Receiver" />
+35-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:26:9-52
+35-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:26:19-49
+36
+37        <activity android:name="com.example.alarm_proto.DestinationSearch" />
+37-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:27:9-55
+37-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:27:19-52
+38        <activity android:name="com.example.alarm_proto.AddDestination" />
+38-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:28:9-52
+38-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:28:19-49
+39        <activity android:name="com.example.alarm_proto.RouteSelect" />
+39-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:29:9-49
+39-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:29:19-46
+40        <activity android:name="com.example.alarm_proto.RouteConfig" />
+40-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:30:9-49
+40-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:30:19-46
+41        <activity android:name="com.example.alarm_proto.AlarmManagement" />
+41-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:31:9-53
+41-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:31:19-50
+42        <activity android:name="com.example.alarm_proto.AlarmConfig" />
+42-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:32:9-49
+42-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:32:19-46
+43        <activity android:name="com.example.alarm_proto.UserSetting" />
+43-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:33:9-49
+43-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:33:19-46
+44        <activity android:name="com.example.alarm_proto.DestinationFinish" />
+44-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:34:9-55
+44-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:34:19-52
+45        <activity android:name="com.example.alarm_proto.MainActivity" >
+45-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:35:9-40:20
+45-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:35:19-47
+46            <intent-filter>
+46-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:36:13-39:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:37:17-69
+47-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:37:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:38:17-77
+49-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:38:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:42:9-44:38
+54            android:name="com.example.alarm_proto.RingtonePlayingService"
+54-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:43:13-51
+55            android:enabled="true" />
+55-->C:\Users\Mingyu\1.3\alarm_proto\src\main\AndroidManifest.xml:44:13-35
+56
+57        <meta-data
+57-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\3c25d949127361693c3996e6817a65c8\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+58            android:name="android.support.VERSION"
+58-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\3c25d949127361693c3996e6817a65c8\appcompat-v7-26.1.0\AndroidManifest.xml:27:13-51
+59            android:value="26.1.0" />
+59-->[com.android.support:appcompat-v7:26.1.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\3c25d949127361693c3996e6817a65c8\appcompat-v7-26.1.0\AndroidManifest.xml:28:13-35
+60        <meta-data
+60-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\c0fa89e2fe47ee55a9f37cece79b22a6\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+61            android:name="android.arch.lifecycle.VERSION"
+61-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\c0fa89e2fe47ee55a9f37cece79b22a6\runtime-1.0.0\AndroidManifest.xml:26:13-58
+62            android:value="27.0.0-SNAPSHOT" />
+62-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Mingyu\.gradle\caches\transforms-2\files-2.1\c0fa89e2fe47ee55a9f37cece79b22a6\runtime-1.0.0\AndroidManifest.xml:27:13-44
+63    </application>
+64
+65</manifest>

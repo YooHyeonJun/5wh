@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./alarm_proto/libs/libDaumMapAndroid.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/alarm_proto/libs/libDaumMapAndroid.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
