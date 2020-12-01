@@ -5,7 +5,9 @@ package com.example.alarm_proto;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +33,8 @@ public class AlarmManagement extends AppCompatActivity {
     ListView lv;
     MyAdapter adapter;
     Calendar calendar;
+    private SharedPreferences preferences;
+    private SharedPreferences.Editor editor;
 
 
     public void onClickAlarm(View v) {
@@ -47,9 +51,22 @@ public class AlarmManagement extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alarm_management);
+        preferences = PreferenceManager.getDefaultSharedPreferences(AlarmManagement.this);
+        editor = preferences.edit();
         lv = (ListView) findViewById(R.id.listview2);
         alarms = new ArrayList<String>(); // 나중에 수정 필요
+        if(preferences.getInt("count",-1) != -1)
+        {
+            count = preferences.getInt("count",-1);
+            for(int i=0;i<=count;i++)
+            {
+                alarms.add(preferences.getString("text"+ i ,"NAN"));
+            }
+        }
 
+
+        adapter = new MyAdapter();
+        lv.setAdapter(adapter);
 
         Button addButton = (Button) findViewById(R.id.alarm_add);
         addButton.setOnClickListener(new Button.OnClickListener() {
@@ -148,11 +165,14 @@ public class AlarmManagement extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        adapter = new MyAdapter();
+        //adapter = new MyAdapter();
         //lv.setAdapter(adapter); // 리스트뷰 어댑터 설정
         if(resultCode == 0){
             String time = data.getStringExtra("alarm_clock");
             alarms.add(time);
+            editor.putString("text"+(++count),time);
+            editor.putInt("count",count);
+            editor.apply();
             lv.setAdapter(adapter);
         }
     }

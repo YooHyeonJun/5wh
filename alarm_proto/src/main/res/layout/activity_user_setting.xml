@@ -45,12 +45,18 @@
             android:gravity="center|center_horizontal"
             android:text="준비시간   : "
             android:textSize="25sp" />
-
-        <EditText
-            android:id="@+id/time_edit"
+        <FrameLayout
             android:layout_width="150dp"
             android:layout_height="54dp"
-            android:textSize="25sp"/>
+            >
+
+            <EditText
+                android:id="@+id/time_edit"
+                android:layout_width="150dp"
+                android:layout_height="54dp"
+                android:textSize="25sp"
+                android:gravity="center"/>
+        </FrameLayout>
 
         <TextView
             android:id="@+id/minute_Text"
@@ -178,3 +184,4 @@
 
     </LinearLayout>
 </LinearLayout>
+

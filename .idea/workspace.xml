@@ -71,25 +71,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="428bd7a4-cb86-45ce-adda-72d8d9ba4552" name="Default Changelist" comment="patch #2 add MyAdapter">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="428bd7a4-cb86-45ce-adda-72d8d9ba4552" name="Default Changelist" comment="patch #4 alarm closed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmClosed.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmClosed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RingtonePlayingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/RingtonePlayingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmClosed.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmClosed.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RingtonePlayingService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/RingtonePlayingService.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/outputs/apk/debug/alarm_proto-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/outputs/apk/debug/alarm_proto-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmClosed.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmClosed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/RingtonePlayingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/RingtonePlayingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmClosed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/javac/debug/classes/com/example/alarm_proto/AlarmClosed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmClosed$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/build/intermediates/project_dex_archive/debug/out/com/example/alarm_proto/AlarmClosed$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/AlarmManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/java/com/example/alarm_proto/UserSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alarm_proto/src/main/res/layout/activity_user_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alarm_proto/src/main/res/layout/activity_user_setting.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +126,7 @@
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="device.file.explorer" />
   </component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
@@ -266,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606668812159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="patch #4 alarm closed">
+      <created>1606678935893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606678935894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +285,8 @@
     <MESSAGE value="delete intent" />
     <MESSAGE value="patch #2 send alarm" />
     <MESSAGE value="patch #2 add MyAdapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="patch #2 add MyAdapter" />
+    <MESSAGE value="patch #4 alarm closed" />
+    <option name="LAST_COMMIT_MESSAGE" value="patch #4 alarm closed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2159" y="489" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1606579294312">
@@ -310,53 +309,69 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1190" y="484" key="FileChooserDialogImpl/0.0.3440.1440@0.0.3440.1440" timestamp="1606588612766" />
-    <state width="1829" height="354" key="GridCell.Tab.0.bottom" timestamp="1606678699897">
+    <state width="2281" height="414" key="GridCell.Tab.0.bottom" timestamp="1606835311241">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606678699897" />
-    <state width="1829" height="354" key="GridCell.Tab.0.center" timestamp="1606678699897">
+    <state width="2281" height="414" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606835311241" />
+    <state width="2281" height="414" key="GridCell.Tab.0.center" timestamp="1606835311241">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606678699897" />
-    <state width="1829" height="354" key="GridCell.Tab.0.left" timestamp="1606678699896">
+    <state width="2281" height="414" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606835311241" />
+    <state width="2281" height="414" key="GridCell.Tab.0.left" timestamp="1606835311241">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606678699896" />
-    <state width="1829" height="354" key="GridCell.Tab.0.right" timestamp="1606678699897">
+    <state width="2281" height="414" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606835311241" />
+    <state width="2281" height="414" key="GridCell.Tab.0.right" timestamp="1606835311241">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606678699897" />
-    <state width="1829" height="354" key="GridCell.Tab.1.bottom" timestamp="1606678696686">
+    <state width="2281" height="414" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606835311241" />
+    <state width="2281" height="414" key="GridCell.Tab.1.bottom" timestamp="1606835307867">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606678696686" />
-    <state width="1829" height="354" key="GridCell.Tab.1.center" timestamp="1606678696686">
+    <state width="2281" height="414" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606835307867" />
+    <state width="2281" height="414" key="GridCell.Tab.1.center" timestamp="1606835307867">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606678696686" />
-    <state width="1829" height="354" key="GridCell.Tab.1.left" timestamp="1606678696685">
+    <state width="2281" height="414" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606835307867" />
+    <state width="2281" height="414" key="GridCell.Tab.1.left" timestamp="1606835307867">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606678696685" />
-    <state width="1829" height="354" key="GridCell.Tab.1.right" timestamp="1606678696686">
+    <state width="2281" height="414" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606835307867" />
+    <state width="2281" height="414" key="GridCell.Tab.1.right" timestamp="1606835307867">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1829" height="354" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606678696686" />
-    <state x="1451" y="416" key="SettingsEditor" timestamp="1606575751888">
+    <state width="2281" height="414" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606835307867" />
+    <state x="1451" y="419" width="998" height="708" key="SettingsEditor" timestamp="1606832381280">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="1451" y="416" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606575751888" />
-    <state x="1350" y="580" key="Vcs.Push.Dialog.v2" timestamp="1606668821796">
+    <state x="1451" y="419" width="998" height="708" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606832381280" />
+    <state x="1350" y="580" key="Vcs.Push.Dialog.v2" timestamp="1606678986812">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="1350" y="580" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606668821796" />
-    <state x="541" y="101" width="1604" height="1249" key="dock-window-1" timestamp="1606678889601">
+    <state x="1350" y="580" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606678986812" />
+    <state x="0" y="2" width="1019" height="826" key="dock-window-1" timestamp="1606832606322">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="541" y="101" width="1604" height="1249" key="dock-window-1/0.0.3440.1440@0.0.3440.1440" timestamp="1606678889601" />
+    <state x="0" y="2" width="1019" height="826" key="dock-window-1/0.0.3440.1440@0.0.3440.1440" timestamp="1606832606322" />
+    <state x="0" y="0" width="1415" height="1296" key="dock-window-2" timestamp="1606835157634">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="0" y="0" width="1415" height="1296" key="dock-window-2/0.0.3440.1440@0.0.3440.1440" timestamp="1606835157634" />
+    <state x="0" y="50" width="1104" height="1390" key="dock-window-3" timestamp="1606835157634">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="0" y="50" width="1104" height="1390" key="dock-window-3/0.0.3440.1440@0.0.3440.1440" timestamp="1606835157634" />
+    <state x="0" y="0" width="2455" height="1299" key="dock-window-4" timestamp="1606835157634">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="0" y="0" width="2455" height="1299" key="dock-window-4/0.0.3440.1440@0.0.3440.1440" timestamp="1606835157634" />
     <state x="1304" y="485" key="git4idea.merge.GitPullDialog" timestamp="1606664353185">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1304" y="485" key="git4idea.merge.GitPullDialog/0.0.3440.1440@0.0.3440.1440" timestamp="1606664353185" />
+    <state x="1953" y="340" width="672" height="678" key="search.everywhere.popup" timestamp="1606835364708">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1953" y="340" width="672" height="678" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1606835364708" />
   </component>
 </project>

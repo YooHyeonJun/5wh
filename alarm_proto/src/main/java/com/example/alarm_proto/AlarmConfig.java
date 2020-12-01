@@ -68,6 +68,8 @@ public class AlarmConfig extends AppCompatActivity {
         estitime_input = (EditText) findViewById(R.id.estitime_input);
         recom_input = (TextView) findViewById(R.id.recom_input);
         estimate_et.addTextChangedListener(textWatcher); // TextWatcher 리스너 등록
+        minute.addTextChangedListener(textWatcher);
+        hour.addTextChangedListener(textWatcher);
     }
 
     TextWatcher textWatcher = new TextWatcher() {
@@ -81,10 +83,14 @@ public class AlarmConfig extends AppCompatActivity {
             String s1 = hour.getText().toString();//시 값 가져오기(xml->java)
             String s2 = minute.getText().toString();//분 값 가져오기(xml->java)
             String s3 = estitime_input.getText().toString();//예측 값 가져오기(xml->java)
-            int result = (Integer.parseInt(s1) * 60 + Integer.parseInt(s2) - Integer.parseInt(s3));
-            int result1 = result / 60;
-            int result2 = result % 60;
-            recom_input.setText(result1 + "시" + result2 + "분");
+            if(!s1.equals("") && !s2.equals("") && !s3.equals("")) // 시 /분 / 권장시간 어느것도 빈칸이 아닐경우에만!
+            {
+                int result = (Integer.parseInt(s1) * 60 + Integer.parseInt(s2) - Integer.parseInt(s3));
+                int result1 = result / 60;
+                int result2 = result % 60;
+                recom_input.setText(result1 + ":" + result2);
+            }
+
         }
 
         @Override
